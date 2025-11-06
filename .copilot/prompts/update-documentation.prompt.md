@@ -170,7 +170,7 @@ How to authenticate API requests.
 - `400`: Bad Request - Invalid parameters
 - `401`: Unauthorized - Authentication required
 - `500`: Internal Server Error
-```
+
 
 #### API Changelog
 **File**: `docs/api/changelog.md`
