@@ -29,9 +29,9 @@ Contains **project and technology-specific** documentation:
 
 ### Phase 0: Project Initialization (First Time Only)
 **ALWAYS check for existing documentation first**:
-1. **Check Documentation**: Look for `docs/architecture/system-overview.md` and `docs/architecture/business-overview.md`
+1. **Check Documentation**: Look for `docs/🏗️ architecture/system-overview.md` and `docs/🏗️ architecture/business-overview.md`
 2. **If No Documentation Exists**: Use `.copilot/prompts/initialize-project.prompt.md` to set up project foundation
-3. **Create Agent Log**: Initialize `docs/agent-changelog.md` to track all activities
+3. **Create Agent Log**: Initialize `docs/📋 agent-changelog.md` to track all activities
 4. **Validation**: Ensure all base documentation exists before proceeding
 
 ### Phase 1: Story Creation and Planning
@@ -41,9 +41,9 @@ When given a feature description or conversation transcript:
 2. **Implementation Planning**: 
    - Use `.copilot/prompts/create-implementation-plan.prompt.md` to generate detailed plan
    - Use story template from `.copilot/templates/story-template.md`
-   - Create feature directory: `docs/features/[feature-name]/`
-   - Save story in `docs/features/[feature-name]/story-[no].md`
-   - Save implementation plan in `docs/features/[feature-name]/implementation-[no].md`
+   - Create feature directory: `docs/🎨 features/[feature-name]/`
+   - Save story in `docs/🎨 features/[feature-name]/story-[no].md`
+   - Save implementation plan in `docs/🎨 features/[feature-name]/implementation-[no].md`
    - Include confidence score and task breakdown with checkboxes
 
 ### Phase 2: Development Cycle
@@ -86,7 +86,7 @@ Use `.copilot/prompts/update-agent-learnings.prompt.md` for:
 2. **Problem Resolution**: Document solutions to significant challenges
 3. **Process Improvements**: Record workflow optimizations and enhancements
 4. **User Request**: Update learnings when explicitly requested
-5. Store learnings in `docs/agent/learnings/` and update learning index
+5. Store learnings in `docs/🤖 agent/💡 learnings/` and update learning index
 
 ### Phase 6: Quality Assurance
 Before story completion:
@@ -117,26 +117,26 @@ Before story completion:
     └── agent-learnings-template.md
 
 docs/
-├── features/
+├── 🎨 features/
 │   └── [feature-name]/
 │       ├── story-[no].md
 │       ├── implementation-[no].md
 │       └── feature-overview.md
-├── architecture/
+├── 🏗️ architecture/
 │   ├── system-overview.md
 │   ├── business-overview.md
 │   └── decisions/
-├── api/
-├── coding-standards/
+├── 🔌 api/
+├── 💻 coding-standards/
 │   ├── development-standards.md
 │   ├── testing-standards.md
 │   └── [technology-specific].md
-├── agent/
-│   ├── learnings/
+├── 🤖 agent/
+│   ├── 💡 learnings/
 │   │   └── AL-[XXX]-[description].md
-│   ├── learning-index.md
-│   └── retrospectives/
-└── agent-changelog.md
+│   ├── 📊 learning-index.md
+│   └── 🔄 retrospectives/
+└── 📋 agent-changelog.md
 ```
 
 ## Commit Standards
@@ -159,7 +159,7 @@ Before merging feature branch:
 ## Instructions for Copilot
 
 1. **Check documentation first** - if no `docs/` exist, run initialization prompt
-2. **Log all activities** - update `docs/agent-changelog.md` with every significant action
+2. **Log all activities** - update `docs/📋 agent-changelog.md` with every significant action
 3. **Follow the prompts** - use the specific prompt files in `.copilot/prompts/` for each phase
 4. **Maintain quality gates** - never compromise on testing or documentation
 5. **Update progress** - always update implementation plan progress
