@@ -1,0 +1,51 @@
+building_id,country_code,name,property_type,city
+B001,US,New York Tower 1,Mixed Use,Los Angeles
+B002,US,Los Angeles Center 2,Retail,Los Angeles
+B003,US,Phoenix Building 3,Office,Houston
+B004,US,Houston Building 4,Office,Los Angeles
+B005,US,Houston Tower 5,Retail,Phoenix
+B006,US,Los Angeles Plaza 6,Mixed Use,Los Angeles
+B007,US,Chicago Building 7,Office,Phoenix
+B008,US,Los Angeles Building 8,Office,Houston
+B009,US,Los Angeles Building 9,Mixed Use,New York
+B010,US,Phoenix Center 10,Industrial,Phoenix
+B011,GB,Leeds Tower 1,Office,Manchester
+B012,GB,Manchester Building 2,Mixed Use,Leeds
+B013,GB,Leeds Building 3,Office,Leeds
+B014,GB,Leeds Center 4,Retail,London
+B015,GB,Glasgow Building 5,Mixed Use,London
+B016,GB,Manchester Building 6,Industrial,Leeds
+B017,GB,Birmingham Center 7,Office,Leeds
+B018,GB,Leeds Tower 8,Mixed Use,Manchester
+B019,GB,Manchester Plaza 9,Mixed Use,Glasgow
+B020,GB,Birmingham Building 10,Industrial,Leeds
+B021,DE,Frankfurt Tower 1,Office,Cologne
+B022,DE,Berlin Center 2,Industrial,Munich
+B023,DE,Cologne Center 3,Mixed Use,Frankfurt
+B024,DE,Berlin Building 4,Mixed Use,Hamburg
+B025,DE,Munich Building 5,Retail,Frankfurt
+B026,DE,Cologne Center 6,Industrial,Cologne
+B027,DE,Berlin Center 7,Industrial,Hamburg
+B028,DE,Hamburg Center 8,Mixed Use,Berlin
+B029,DE,Frankfurt Tower 9,Office,Hamburg
+B030,DE,Munich Plaza 10,Mixed Use,Hamburg
+B031,FR,Paris Plaza 1,Office,Paris
+B032,FR,Nice Tower 2,Industrial,Marseille
+B033,FR,Lyon Building 3,Industrial,Nice
+B034,FR,Marseille Plaza 4,Mixed Use,Nice
+B035,FR,Toulouse Plaza 5,Office,Lyon
+B036,FR,Paris Tower 6,Office,Paris
+B037,FR,Toulouse Center 7,Industrial,Paris
+B038,FR,Paris Center 8,Mixed Use,Marseille
+B039,FR,Marseille Center 9,Mixed Use,Paris
+B040,FR,Lyon Plaza 10,Industrial,Lyon
+B041,JP,Yokohama Plaza 1,Industrial,Tokyo
+B042,JP,Osaka Plaza 2,Industrial,Yokohama
+B043,JP,Yokohama Building 3,Retail,Sapporo
+B044,JP,Nagoya Building 4,Industrial,Nagoya
+B045,JP,Yokohama Center 5,Retail,Osaka
+B046,JP,Sapporo Plaza 6,Retail,Nagoya
+B047,JP,Sapporo Plaza 7,Industrial,Tokyo
+B048,JP,Tokyo Building 8,Retail,Nagoya
+B049,JP,Tokyo Building 9,Retail,Sapporo
+B050,JP,Sapporo Building 10,Mixed Use,Osaka
